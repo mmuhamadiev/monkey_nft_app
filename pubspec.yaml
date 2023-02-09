@@ -1,0 +1,53 @@
+name: monkey_nft_app
+description: UI/UX design for nft Monkey app
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  go_router: ^6.0.1
+  lottie: ^2.2.0
+  flutter_bloc: ^8.1.2
+  flutter_animate: ^3.1.0
+  carousel_slider: ^4.2.1
+  flutter_native_splash: ^2.2.17
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  build_runner: ^2.3.3
+
+flutter:
+
+  uses-material-design: true
+
+  fonts:
+    - family: AtypDisplay
+      fonts:
+        - asset: assets/fonts/AtypDisplay-Bold.ttf
+    - family: PlusJakartaSans
+      fonts:
+        - asset: assets/fonts/PlusJakartaSans-Bold.ttf
+        - asset: assets/fonts/PlusJakartaSans-Regular.ttf
+
+  assets:
+    - assets/
+    - assets/nft/
+    - assets/nft/cats/
+    - assets/nft/anime/
+    - assets/nft/astro/
+    - assets/nft/hypebeast/
+    - assets/fonts/
+    - assets/icons/
+    - assets/icons/btn/
+    - assets/nft_icon/
+
